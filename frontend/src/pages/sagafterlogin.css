@@ -1,0 +1,112 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #253c7a;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .prn {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .sort-section {
+    margin-top: 20px;
+  }
+  
+  .sort-button {
+    background-color: #2b4fa6;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sort-options label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+  }
+  
+  .sort-options select,
+  .semester-section input[type="radio"] {
+    margin: 5px 0;
+  }
+  
+  .semester-section ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .semester-section li {
+    margin-bottom: 5px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .active-applications {
+    background-color: #253c7a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .applications-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .applications-table th,
+  .applications-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .status-new {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .verify-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

@@ -1,0 +1,52 @@
+.header-container {
+    width: 100%;
+    background-color: #f4f4f4; /* Light grey background for header */
+    padding: 10px 0;
+  }
+  
+  .top-bar {
+    background-color: #1b3a75; /* Dark blue background for top bar */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+  
+  .date-time {
+    font-size: 14px;
+  }
+  
+  .text-controls {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .logo-title-section {
+    background-color: #d3d3d3; /* Grey background for logo and title section */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo-container {
+    margin-right: 15px;
+  }
+  
+  .aicte-logo {
+    height: 60px; /* Adjust logo size */
+  }
+  
+  .title-container h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1b3a75;
+  }
+  
+  .title-container p {
+    margin: 0;
+    font-size: 14px;
+    color: #1b3a75;
+  }

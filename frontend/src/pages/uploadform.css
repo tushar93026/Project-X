@@ -1,0 +1,94 @@
+.form-container {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    flex: 2;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-camera {
+    width: 20px;
+    height: 20px;
+    /* background-image: url('camera-icon.png'); */
+    background-size: cover;
+    margin-left: 10px;
+  }
+  
+  .icon-check {
+    width: 20px;
+    height: 20px;
+    /* background-image: url('check-icon.png'); */
+    background-size: cover;
+    margin-left: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .digilocker-btn,
+  .verification-btn {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .digilocker-btn {
+    background-color: #3a3f98;
+  }
+  
+  .verification-btn {
+    background-color: #1cb2d8;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .nav-btn {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .nav-btn:first-child {
+    background-color: #f39c12;
+  }
+  
+  .nav-btn:last-child {
+    background-color: #3498db;
+  }

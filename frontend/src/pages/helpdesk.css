@@ -1,0 +1,70 @@
+.helpdesk-contact-container {
+    width: 75vw;
+    height: 75vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+    display: inline-flex;
+    margin-left: 16vw;
+    margin-top: -2.6vh;
+    /* background-color: red; */
+  }
+  
+  .helpdesk-section {
+    width: 50%;
+    height: 95%;
+    /* background-color: yellow; */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-section {
+    width: 50%;
+    height: 95%;
+    /* background-color: yellow; */
+    padding: 20px;
+    border-radius: 10px;
+    /* position: absolute; */
+  }
+  
+  .faqs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .bot-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+    margin-left: 60%;
+    margin-top: 24%;
+  }
+  
+  .bot-icon img {
+    width: 50px;
+    height: 50px;
+  }

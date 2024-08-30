@@ -1,0 +1,18 @@
+/* Footer Styles */
+.footer {
+  background-color: #1e2d70; /* Dark blue background color */
+  color: white; /* White text color */
+  text-align: center; /* Center-align text */
+  padding: 15px 20px; /* Padding for spacing */
+  position: fixed; /* Make footer sticky */
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-size: 14px; /* Adjust font size */
+}
+
+body {
+  margin: 0; /* Remove default margin */
+  padding-bottom: 60px; /* Padding at the bottom to prevent content from hiding behind the footer */
+}
